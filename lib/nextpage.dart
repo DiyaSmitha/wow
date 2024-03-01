@@ -14,7 +14,7 @@ class _NextpageState extends State<Nextpage> {
       body: Column(
         children: [
           Container(
-            width: 0,
+            width: 20,
             height: 25,
             color: Colors.red,
           ),
