@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newww/nextpage.dart';
 
 class Index extends StatefulWidget {
   const Index({Key? key}) : super(key: key);
@@ -46,7 +47,9 @@ class _IndexState extends State<Index> {
             ElevatedButton(
               style: TextButton.styleFrom(primary: Colors.white,
               backgroundColor: Colors.red),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Nextpage(),));
+              },
               child: Text(
                 '       Log In        ',
               ),
